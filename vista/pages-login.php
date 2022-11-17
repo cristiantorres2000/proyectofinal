@@ -97,7 +97,7 @@ $stmt = $connect->prepare('SELECT id, nombre, usuario, correo,contra, cargo FROM
             <div class="w-full">
               <form class="container" autocomplete="off" method="POST"  role="form">
               <h1 class="mb-4 text-xl font-semibold text-gray-700 dark:text-gray-200">
-INICIO DE SESIÓN 2           </h1>
+INICIO DE SESIÓN PARA INICIAR           </h1>
               <?php
     if(isset($errMsg)){
     echo '<div style="color:#FF0000;text-align:center;font-size:20px;">'.$errMsg.'</div>';  
